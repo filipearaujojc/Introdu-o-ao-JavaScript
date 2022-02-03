@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento Do Capacete/Motociclista</title>
+    <meta http-equiv='refresh' content='0.5'>    
+</head>
+<body>
+    <h1 style=\"text-align: center; color: blue\"> Monitoramento Do Capacete/Motociclista </h1>
+    <p>Monitoramento de impactos e movimentações</p>
+    <div id="counter">
+        <p style=\"text-align: left; color: red; font-size:150% \">Valores do acelerometro: "
+        <p style=\"text-align: left; font-size:150% \">AcX: "
+        client.print(AcX);
+        <br/>AcY: "
+        client.print(AcY);
+        <br/>AcZ: "
+        client.print(AcZ);        
+    </div>
+    <div id="counter">
+        <div id="counter">
+        <p style=\"text-align: left; font-size:150% \">GyX: "
+        client.print(GyX);
+        <br/>GyY: "
+        client.print(GyY);
+        <br/>GyZ: "
+        client.print(GyZ);
+    </div>
+    <div id="counter">
+        <p style=\"text-align: left; color: red; font-size:150% \">Batimentos Cardiacos do Motociclista: "
+        <p style=\"text-align: left; font-size:150% \">BPM: 
+        client.print(BPM);
+    </div>
+
+    </body>
+</html>
